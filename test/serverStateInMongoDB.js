@@ -14,7 +14,7 @@ var urlMap = {
 // Returns a restify server.
 var server = bpmn.createServer({
                 urlMap: urlMap,
-                logLevel: "debug",
+                logLevel: "0",
                 persistency: {
                     uri: 'mongodb://127.0.0.1:27017/exampledb'
                 }
